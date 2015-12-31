@@ -1,10 +1,7 @@
 Trig_Functions_Code-
 ====================
 
-//Just a programming exercise that calculates real number inputs for f(x)=sin(x). 
-//I know you're like "Why is it called Trig Functions if you only have sin(x)?"
-//Cause I'm adding the rest later once I've actually managed to do sin(x) right 
-//No, I'm not just going to use C++'s built in trig. I'm trying to replicate the code behind it
+//A C++ implemenation to simulate a calculator's method for tigonometric functions for small values 
 //All trig function approximations are done using their respective Maclaurian Series expansions 
 
 #include <iostream>
