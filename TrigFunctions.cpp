@@ -36,6 +36,7 @@ int factorial(const int num)
 	int i = num; 
         for(; i > 0; i--)
         	i *= i;  
+	return i; 
 } 
 
 
