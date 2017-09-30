@@ -7,7 +7,7 @@ Trig_Functions_Code-
 #include <iostream>
 #include <cmath>
 
-int factorial(const int );  //seperate function to calculate the factorial in the Maclaurian series 
+long int factorial(int );  //seperate function to calculate the factorial in the Maclaurian series 
 using namespace std;
 
 int main()
@@ -31,11 +31,13 @@ int main()
     return 0;       
 }
 
-int factorial(const int num)
+long int factorial(int num)
 { 
-	int i = num; 
-        for(; i > 0; i--)
-        	i *= i;  
+	if(num == 0) 
+		return 1; 
+	int i = num;  
+        for(; num > 1; num--)
+		i = i*(num - 1);  
 	return i; 
 } 
 
